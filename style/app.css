@@ -82,6 +82,10 @@ button:hover{
     background-color: rgb(21, 91, 0);
     color: white;
 }
+.btn-completed{
+    background-color: rgb(251, 255, 0);
+    color: rgb(0, 0, 0);
+}
 
 .div-form{
     position: sticky;
@@ -99,4 +103,8 @@ input, select{
     width: 100%;
     border-radius: 3px;
     font-size: 1.3rem;
+}
+
+.completed{
+    text-decoration: line-through;
 }
